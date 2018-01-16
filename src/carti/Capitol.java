@@ -1,4 +1,4 @@
-package Lab1;
+package carti;
 
 public class Capitol implements InfosCapitole {
 

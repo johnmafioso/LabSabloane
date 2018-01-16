@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_144" class="java.beans.XMLDecoder">
+ <object class="carti.Carte" id="Carte0">
+  <void property="autori">
+   <void method="add">
+    <object class="carti.Autor">
+     <void property="name">
+      <string>autor1</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="carti.Autor">
+     <void property="name">
+      <string>autor2</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="continut">
+   <void method="add">
+    <object class="carti.Imagine">
+     <void property="name">
+      <string>picture1.jpg</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="carti.Tabel">
+     <void property="name">
+      <string>tabel1</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="carti.Tabel">
+     <void property="name">
+      <string>tabel2</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="carti.Paragraf">
+     <void property="name">
+      <string>paragraf1</string>
+     </void>
+     <void property="text">
+      <string>thisText</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="carti.Sectiune" id="Sectiune0">
+     <void property="elems">
+      <void method="add">
+       <object class="carti.Imagine">
+        <void property="name">
+         <string>imagineSectiune.jpg</string>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="titlu">
+      <string>sectiune1</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="titlu">
+   <string>carte1</string>
+  </void>
+ </object>
+</java>

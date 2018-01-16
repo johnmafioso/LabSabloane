@@ -1,0 +1,1 @@
+{"titlu":"carte1","autori":[{"name":"autor1"},{"name":"autor2"}],"continut":[["carti.Imagine",{"name":"picture1.jpg"}],["carti.Tabel",{"name":"tabel1"}],["carti.Tabel",{"name":"tabel2"}],["carti.Paragraf",{"name":"paragraf1","text":"thisText"}],["carti.Sectiune",{"titlu":"sectiune1","elems":[["carti.Imagine",{"name":"imagineSectiune.jpg"}]]}]]}

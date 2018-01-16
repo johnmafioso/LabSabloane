@@ -1,8 +1,8 @@
-package Lab1;
+package carti;
 
 public class ImageProxy extends AbstractElement {
 
-	private String fileName;
+	private String fileName="";
 	private Imagine realImage = null;
 	
 	ImageProxy(String fileName){
@@ -15,5 +15,9 @@ public class ImageProxy extends AbstractElement {
 			realImage = new Imagine(fileName);
 		}
 		realImage.print();
+	}
+	
+	public void accept(Visitor v) {
+		v.visitImageProxy();
 	}
 }
